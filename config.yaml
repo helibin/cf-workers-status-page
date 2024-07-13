@@ -18,7 +18,7 @@ monitors:
   - id: istar-dev
     name: istar.dev.vlb.cn
     description: '不忘星球开发环境'
-    url: 'https://istar.dev.vlb.cn/api'
+    url: 'https://istar.dev.vlb.cn'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -26,7 +26,7 @@ monitors:
   - id: istar-qa
     name: istar.vlb.cn
     description: '不忘星球测试环境'
-    url: 'https://istar.vlb.cn/api'
+    url: 'https://istar.vlb.cn'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
